@@ -1,208 +1,42 @@
 ---
-author: Sat Naing
-pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2025-03-22T06:25:46.734Z
-title: Adding new posts in AstroPaper theme
-slug: adding-new-posts-in-astropaper-theme
-featured: true
-draft: false
-tags:
-  - docs
-description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+title: "sejarah-dan-perkembangan-ai"
+date: "2025-04-29"
+slug: "sejarah-kecerdasan-buatan"
+description: "Pelajari sejarah kecerdasan buatan (AI), dari konsep awal yang diperkenalkan oleh Alan Turing hingga perkembangan teknologi AI modern yang mempengaruhi berbagai aspek kehidupan kita."
+author: "Mydigitcehvibes"
+---
+---
+title: "Sejarah Kecerdasan Buatan: Dari Turing hingga Revolusi AI Modern"
+date: "2025-04-29"
+slug: "sejarah-kecerdasan-buatan"
+description: "Pelajari sejarah kecerdasan buatan (AI), dari konsep awal yang diperkenalkan oleh Alan Turing hingga perkembangan teknologi AI modern yang mempengaruhi berbagai aspek kehidupan kita."
 ---
 
-Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
+## Sejarah Kecerdasan Buatan (AI)
 
-<figure>
-  <img
-    src="https://images.pexels.com/photos/159618/still-life-school-retro-ink-159618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    alt="Free Classic wooden desk with writing materials, vintage clock, and a leather bag. Stock Photo"
-  />
-    <figcaption class="text-center">
-    Photo by <a href="https://www.pexels.com/photo/brown-wooden-desk-159618/">Pixabay</a>
-  </figcaption>
-</figure>
+Sejarah Kecerdasan Buatan (AI)
+Kecerdasan Buatan (AI) adalah bidang ilmu komputer yang bertujuan untuk menciptakan mesin yang mampu meniru perilaku dan pemikiran manusia. Sejak pertama kali diusulkan pada pertengahan abad ke-20, AI telah mengalami perkembangan pesat yang mengubah dunia dalam berbagai bidang, dari industri hingga kehidupan sehari-hari.
 
-## Table of contents
+Awal Mula Kecerdasan Buatan
+Konsep dasar dari AI pertama kali muncul pada tahun 1950-an, berkat seorang ilmuwan bernama Alan Turing. Dalam makalahnya yang terkenal, "Computing Machinery and Intelligence" (1950), Turing memperkenalkan Tes Turing sebagai cara untuk mengukur kecerdasan mesin. Tes Turing berfokus pada kemampuan mesin untuk berpikir dan bertindak seperti manusia, yang menjadi dasar bagi banyak pengembangan AI di masa depan.
 
-## Creating a Blog Post
+1956 adalah tahun yang dianggap sebagai kelahiran formal dari AI sebagai disiplin ilmiah. Konferensi Dartmouth yang diadakan pada tahun itu, dipimpin oleh John McCarthy, mengusulkan bahwa kecerdasan manusia bisa ditiru dengan mesin, membuka jalan bagi perkembangan riset dan eksperimen dalam AI.
 
-To write a new blog post, create a markdown file inside the `src/data/blog/` directory.
+Perkembangan AI: 1950–1980-an
+Pada tahun 1960-an hingga 1970-an, para peneliti mulai mengembangkan program-program AI yang sederhana seperti ELIZA, sebuah chatbot yang meniru percakapan seorang terapis. Meskipun sangat sederhana, ELIZA menunjukkan potensi besar bahwa komputer bisa berinteraksi dengan manusia secara alami.
 
-> Prior to AstroPaper v5.1.0, all blog posts had to be in `src/data/blog/`, meaning you couldn't organize them into subdirectories.
+Namun, perkembangan AI pada periode ini terbatas karena keterbatasan komputasi dan data yang tersedia. Akibatnya, ada masa yang dikenal sebagai "AI Winter" pada akhir 1970-an hingga 1980-an, di mana banyak pendanaan dan riset AI berkurang.
 
-Starting from AstroPaper v5.1.0, you can now organize blog posts into subdirectories, making it easier to manage your content.
+AI Modern: 1990-an – Sekarang
+Di tahun 1990-an, AI mulai mendapatkan kemajuan yang signifikan berkat peningkatan dalam kemampuan komputasi dan pengolahan data. Salah satu momen penting dalam sejarah AI terjadi pada tahun 1997, ketika komputer IBM Deep Blue mengalahkan grandmaster catur dunia, Garry Kasparov. Ini menunjukkan bahwa komputer mampu melakukan tugas-tugas yang sebelumnya hanya bisa dilakukan oleh manusia.
 
-For example, if you want to group posts under `2025`, you can place them in `src/data/blog/2025/`. This also affects the post URL, so `src/data/blog/2025/example-post.md` will be available at `/posts/2025/example-post`.
+Pada 2000-an hingga saat ini, AI mulai berkembang lebih cepat, terutama dengan munculnya teknologi Pembelajaran Mesin (Machine Learning) dan Deep Learning. Dengan kemampuan untuk memproses big data dan mengembangkan algoritma yang lebih canggih, AI kini digunakan dalam berbagai aplikasi mulai dari mobil otonom hingga asisten virtual seperti Siri dan Google Assistant.
 
-If you don’t want subdirectories to affect the post URL, just prefix the folder name with an underscore `_`.
+Masa Depan AI
+AI kini berada di titik yang sangat menjanjikan. Para ahli memperkirakan bahwa kecerdasan buatan akan semakin canggih dan bahkan mungkin bisa melampaui kecerdasan manusia dalam beberapa dekade ke depan. Dari sektor medis, keuangan, hingga pendidikan, AI diharapkan dapat membawa inovasi dan perubahan yang besar bagi dunia.
 
-```bash
-# Example: blog post structure and URLs
-src/data/blog/very-first-post.md          -> mysite.com/posts/very-first-post
-src/data/blog/2025/example-post.md        -> mysite.com/posts/2025/example-post
-src/data/blog/_2026/another-post.md       -> mysite.com/posts/another-post
-src/data/blog/docs/_legacy/how-to.md      -> mysite.com/docs/how-to
-src/data/blog/Example Dir/Dummy Post.md   -> mysite.com/example-dir/dummy-post
-```
+Namun, bersama dengan potensi besar AI, muncul juga tantangan etika yang perlu dipertimbangkan, terutama terkait dengan pengaruhnya terhadap pekerjaan manusia dan privasi data.
 
-> 💡 Tip: You can override a blog post’s slug in the frontmatter as well. See the next section for more details.
+## Gambar Sejarah AI
+![Sejarah AI](url_gambar_kamu)
 
-If the subdirectory URL doesn’t appear in the build output, remove node_modules, reinstall packages, and then rebuild.
-
-## Frontmatter
-
-Frontmatter is the main place to store some important information about the blog post (article). Frontmatter lies at the top of the article and is written in YAML format. Read more about frontmatter and its usage in [astro documentation](https://docs.astro.build/en/guides/markdown-content/).
-
-Here is the list of frontmatter property for each post.
-
-| Property           | Description                                                                                                                           | Remark                                         |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| **_title_**        | Title of the post. (h1)                                                                                                               | required<sup>\*</sup>                          |
-| **_description_**  | Description of the post. Used in post excerpt and site description of the post.                                                       | required<sup>\*</sup>                          |
-| **_pubDatetime_**  | Published datetime in ISO 8601 format.                                                                                                | required<sup>\*</sup>                          |
-| **_modDatetime_**  | Modified datetime in ISO 8601 format. (only add this property when a blog post is modified)                                           | optional                                       |
-| **_author_**       | Author of the post.                                                                                                                   | default = SITE.author                          |
-| **_slug_**         | Slug for the post. This field is optional.                                                                                            | default = slugified file name                  |
-| **_featured_**     | Whether or not display this post in featured section of home page                                                                     | default = false                                |
-| **_draft_**        | Mark this post 'unpublished'.                                                                                                         | default = false                                |
-| **_tags_**         | Related keywords for this post. Written in array yaml format.                                                                         | default = others                               |
-| **_ogImage_**      | OG image of the post. Useful for social media sharing and SEO. This can be a remote URL or an image path relative to current folder.  | default = `SITE.ogImage` or generated OG image |
-| **_canonicalURL_** | Canonical URL (absolute), in case the article already exists on other source.                                                         | default = `Astro.site` + `Astro.url.pathname`  |
-| **_hideEditPost_** | Hide editPost button under blog title. This applies only to the current blog post.                                                    | default = false                                |
-| **_timezone_**     | Specify a timezone in IANA format for the current blog post. This will override the `SITE.timezone` config for the current blog post. | default = `SITE.timezone`                      |
-
-> Tip! You can get ISO 8601 datetime by running `new Date().toISOString()` in the console. Make sure you remove quotes though.
-
-Only `title`, `description` and `pubDatetime` fields in frontmatter must be specified.
-
-Title and description (excerpt) are important for search engine optimization (SEO) and thus AstroPaper encourages to include these in blog posts.
-
-`slug` is the unique identifier of the url. Thus, `slug` must be unique and different from other posts. The whitespace of `slug` should to be separated with `-` or `_` but `-` is recommended. Slug is automatically generated using the blog post file name. However, you can define your `slug` as a frontmatter in your blog post.
-
-For example, if the blog file name is `adding-new-post.md` and you don't specify the slug in your frontmatter, Astro will automatically create a slug for the blog post using the file name. Thus, the slug will be `adding-new-post`. But if you specify the `slug` in the frontmatter, this will override the default slug. You can read more about this in [Astro Docs](https://docs.astro.build/en/guides/content-collections/#defining-custom-slugs).
-
-If you omit `tags` in a blog post (in other words, if no tag is specified), the default tag `others` will be used as a tag for that post. You can set the default tag in the `/src/content/config.ts` file.
-
-```ts
-// src/content/config.ts
-export const blogSchema = z.object({
-  // ---
-  draft: z.boolean().optional(),
-  tags: z.array(z.string()).default(["others"]), // replace "others" with whatever you want
-  // ---
-});
-```
-
-### Sample Frontmatter
-
-Here is the sample frontmatter for a post.
-
-```yaml
-# src/content/blog/sample-post.md
----
-title: The title of the post
-author: your name
-pubDatetime: 2022-09-21T05:17:19Z
-slug: the-title-of-the-post
-featured: true
-draft: false
-tags:
-  - some
-  - example
-  - tags
-ogImage: ../../assets/images/example.png # src/assets/images/example.png
-# ogImage: "https://example.org/remote-image.png" # remote URL
-description: This is the example description of the example post.
-canonicalURL: https://example.org/my-article-was-already-posted-here
----
-```
-
-## Adding table of contents
-
-By default, a post (article) does not include any table of contents (toc). To include toc, you have to specify it in a specific way.
-
-Write `Table of contents` in h2 format (## in markdown) and place it where you want it to be appeared on the post.
-
-For instance, if you want to place your table of contents just under the intro paragraph (like I usually do), you can do that in the following way.
-
-```md
----
-# some frontmatter
----
-
-Here are some recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
-
-## Table of contents
-
-<!-- the rest of the post -->
-```
-
-## Headings
-
-There's one thing to note about headings. The AstroPaper blog posts use title (title in the frontmatter) as the main heading of the post. Therefore, the rest of the heading in the post should be using h2 \~ h6.
-
-This rule is not mandatory, but highly recommended for visual, accessibility and SEO purposes.
-
-## Storing Images for Blog Content
-
-Here are two methods for storing images and displaying them inside a markdown file.
-
-> Note! If it's a requirement to style optimized images in markdown you should [use MDX](https://docs.astro.build/en/guides/images/#images-in-mdx-files).
-
-### Inside `src/assets/` directory (recommended)
-
-You can store images inside `src/assets/` directory. These images will be automatically optimized by Astro through [Image Service API](https://docs.astro.build/en/reference/image-service-reference/).
-
-You can use relative path or alias path (`@/assets/`) to serve these images.
-
-Example: Suppose you want to display `example.jpg` whose path is `/src/assets/images/example.jpg`.
-
-```md
-![something](@/assets/images/example.jpg)
-
-<!-- OR -->
-
-![something](../../assets/images/example.jpg)
-
-<!-- Using img tag or Image component won't work ❌ -->
-<img src="@/assets/images/example.jpg" alt="something">
-<!-- ^^ This is wrong -->
-```
-
-> Technically, you can store images inside any directory under `src`. In here, `src/assets` is just a recommendation.
-
-### Inside `public` directory
-
-You can store images inside the `public` directory. Keep in mind that images stored in the `public` directory remain untouched by Astro, meaning they will be unoptimized and you need to handle image optimization by yourself.
-
-For these images, you should use an absolute path; and these images can be displayed using [markdown annotation](https://www.markdownguide.org/basic-syntax/#images-1) or [HTML img tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
-
-Example: Assume `example.jpg` is located at `/public/assets/images/example.jpg`.
-
-```md
-![something](/assets/images/example.jpg)
-
-<!-- OR -->
-
-<img src="/assets/images/example.jpg" alt="something">
-```
-
-## Bonus
-
-### Image compression
-
-When you put images in the blog post (especially for images under `public` directory), it is recommended that the image is compressed. This will affect the overall performance of the website.
-
-My recommendation for image compression sites.
-
-- [TinyPng](https://tinypng.com/)
-- [TinyJPG](https://tinyjpg.com/)
-
-### OG Image
-
-The default OG image will be placed if a post does not specify the OG image. Though not required, OG image related to the post should be specify in the frontmatter. The recommended size for OG image is **_1200 X 640_** px.
-
-> Since AstroPaper v1.4.0, OG images will be generated automatically if not specified. Check out [the announcement](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/).
