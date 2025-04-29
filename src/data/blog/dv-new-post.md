@@ -38,5 +38,5 @@ AI kini berada di titik yang sangat menjanjikan. Para ahli memperkirakan bahwa k
 Namun, bersama dengan potensi besar AI, muncul juga tantangan etika yang perlu dipertimbangkan, terutama terkait dengan pengaruhnya terhadap pekerjaan manusia dan privasi data.
 
 ## Gambar Sejarah AI
-![Sejarah AI](url_gambar_kamu)
+![Timeline Sejarah AI](assets/images/0x0.jpg)
 
